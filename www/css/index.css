@@ -8,6 +8,7 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 
+    font-family: "Open Sans";
     font-size:12px;
     height:100%;
     margin:0px;
@@ -22,7 +23,6 @@ body {
 }
 
 header {
-    font-family: "Open Sans";
     padding: 60px 20px;
     width: 100%;
     background: url(../img/background.jpg);
@@ -41,4 +41,8 @@ header {
     color: #0A0;
     width: auto;
     display: inline-block;
+}
+
+#info {
+    margin-top: 20px;
 }
